@@ -21,3 +21,6 @@ Started crafting the PCB design after design review today
 Design review critiques:
 - Tolerance Analysis: more specific with angle precision (data value count / rotation angle degree)
 - Safety: Be cautious about the servo motor torque on finger and show calculations assuring its safety.
+
+Need to decide if we want to use CTS and RTS flow control scheme for FTDI <-> STM32 MCU
+
