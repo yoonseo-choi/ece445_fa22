@@ -10,3 +10,14 @@ Design is up for 2 options:
 Updated firmware data processing and control algorithm flowchart.
 
 Ordered Stm32 MCU
+
+
+**10-04-2022**
+
+Decided on Micro-USB, ST-Link, FTDI Parts
+
+Started crafting the PCB design after design review today
+
+Design review critiques:
+- Tolerance Analysis: more specific with angle precision (data value count / rotation angle degree)
+- Safety: Be cautious about the servo motor torque on finger and show calculations assuring its safety.
