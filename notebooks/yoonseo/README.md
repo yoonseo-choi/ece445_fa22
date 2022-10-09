@@ -31,6 +31,6 @@ Completed the micro usb module that functions as power and usb data communicatio
 
 Added basic connections for both STM32 and FT232 chip
 - STM32: figure out how to use connectors on pin PA13,14 for SWD ST-Link Programmer
-- FT232: Need to decide how to route other pins (i.e. NRESET, CTS, RTS, etc)
+- FT232: Need to decide how to route other pins (i.e. NRESET, CTS, RTS, etc) and add male connectors to GND and VDD
 
 
