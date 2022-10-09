@@ -24,3 +24,13 @@ Design review critiques:
 
 Need to decide if we want to use CTS and RTS flow control scheme for FTDI <-> STM32 MCU
 
+
+**10-08-2022**
+
+Completed the micro usb module that functions as power and usb data communication (still need to annotate fuse value)
+
+Added basic connections for both STM32 and FT232 chip
+- STM32: figure out how to use connectors on pin PA13,14 for SWD ST-Link Programmer
+- FT232: Need to decide how to route other pins (i.e. NRESET, CTS, RTS, etc)
+
+
