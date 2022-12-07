@@ -69,5 +69,21 @@ To address this problem, and some other power problems, we determined using a hi
 
 As for the firmware, I was able to start development for the ADC channels in order to sample the potentiometer voltage values from the finger movements. 
 
+ADC Configuration Challenges:
+- Needed to prioritize order of channel sampling and sending them to pc via uart
+- Decided to utilize DMA mode for ADC for more efficient CPU cycle use
+
+**11-12-2022: PWM Timer Configurations**
+
+The servos we ordered required specific pwm signals to rotate certain angles.
+
+When setting the configurations for PWM, there were many calculation to be made and setting/modifying control register to specific values.
+
+[PWM Timer Register Configuration](image.png)
+
+[Servo Motor Data Sheet](../../MG90S_Tower-Pro.pdf)
+
+**11-13-2022: PCB Soldering and Firmware Algorithm Development**
+
 
 
