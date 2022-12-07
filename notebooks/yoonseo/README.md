@@ -79,11 +79,18 @@ The servos we ordered required specific pwm signals to rotate certain angles.
 
 When setting the configurations for PWM, there were many calculation to be made and setting/modifying control register to specific values.
 
-[PWM Timer Register Configuration](image.png)
+[PWM Timer Register Configuration](../../Screenshot%20from%202022-12-07%2001-02-01.png)
 
 [Servo Motor Data Sheet](../../MG90S_Tower-Pro.pdf)
 
 **11-13-2022: PCB Soldering and Firmware Algorithm Development**
+
+Our parts for the PCB arrived, so we soldered on all of our parts except the STM32. At this point, since we only had the MCU on the dev board, we determined that waiting to place the MCU on the custom PCB after testing the firmware to its full functionality would be the optimal decision.
+
+Hands down, the hardest part about the algorithm development was determining the correct pulse to send to the servo and the angle it should turn to accurate restrict the finger movement of the user. 
+
+This session aimed to mostly cover the moving of the servos to the desired angle and create functions to do so. 
+
 
 
 
