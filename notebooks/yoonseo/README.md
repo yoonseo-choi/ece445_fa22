@@ -79,7 +79,7 @@ The servos we ordered required specific pwm signals to rotate certain angles.
 
 When setting the configurations for PWM, there were many calculation to be made and setting/modifying control register to specific values.
 
-[PWM Timer Register Configuration](../../Screenshot%20from%202022-12-07%2001-02-01.png)
+![PWM Timer Register Configuration](../../Screenshot%20from%202022-12-07%2001-02-01.png)
 
 [Servo Motor Data Sheet](../../MG90S_Tower-Pro.pdf)
 
@@ -87,10 +87,27 @@ When setting the configurations for PWM, there were many calculation to be made 
 
 Our parts for the PCB arrived, so we soldered on all of our parts except the STM32. At this point, since we only had the MCU on the dev board, we determined that waiting to place the MCU on the custom PCB after testing the firmware to its full functionality would be the optimal decision.
 
-Hands down, the hardest part about the algorithm development was determining the correct pulse to send to the servo and the angle it should turn to accurate restrict the finger movement of the user. 
+Hands down, the hardest part about the algorithm development was determining the correct pulse to send to the servo and the angle it should turn to accurately restrict the finger movement of the user. 
 
 This session aimed to mostly cover the moving of the servos to the desired angle and create functions to do so. 
 
+**11-25-2022: FW Algorithm Testing and SW Integration**
 
+After thanksgiving, I was able to finish the initial firmware draft and start testing the actual glove with different stimuli. After I was able to verify some of the controls requirements for our project, I started to create a standard data format where to get ready for the graphics platform to communicate under a similar data scheme with the firmware.
+
+Out Data: (16 bytes) 4 bytes for each finger position
+In Data: (4 bytes) 1 byte for each finger using 2 bit representation
+- '0'(00): no collision
+- '1'(01): right collision
+- '2'(10): left collision
+- '3'(11): both collisions
+
+We made videos of the project successfully performing requirements set, then soldered the STM32 onto the custom PCB
+
+**12-01-2022: Final Demo Review**
+
+Our last meeting for the development process was making sure we had all the verification for our requirements, rubrics printed out for the demo, and last minute checklist run down. Although we weren't able to demo today with our actual product (because the custom PCB didn't work), we were able to show videos of the working glove. It was a huge regret not being able to showcase what I've worked on the whole semester with so much time and effort, but it proved to be a valuable lesson where it taught me that there are always priorities and when you run into a dilemma, choosing one way will always have some consequences for not choosing the other, but you still need to make the best out of it and weigh your pros and cons before settling on a single decision.
+
+Overall, this project taught me many things about not just the firmware development of the STM32 but also time management, project insight, team communication, etc. It'll be skills I'll continue to develop throughout my career. 
 
 
