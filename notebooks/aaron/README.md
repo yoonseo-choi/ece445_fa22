@@ -24,6 +24,7 @@
 
 **Accomplished:** I separated the pieces as best I could to avoid overhangs, and I made an assembly of most of the pieces.
 
+<p float="left">
 <img height="170" src="images/Base Seperate 1.jpg">
 <img height="170" src="images/Base Seperate 2.jpg">
 <img height="170" src="images/Base Seperate 3.jpg">
@@ -32,6 +33,7 @@
 <img height="170" src="images/Servo Top Mount Separate 1.jpg">
 <img height="170" src="images/Servo Top Mount Separate 2.jpg">
 <img height="170" src="images/ServoMount2.jpg">
+</p>
 
 ---
 
@@ -49,6 +51,7 @@
 
 **Accomplished:** redesigned the base, potentiometer holder, and servo holder to follow the shape of my hand since the last design felt pretty uncomfortable and didn’t alight very well with the joints. I also added guard rails on the servo arm so that I can only use one screw without having the servo arm slider around. Lastly, I tested several pieces to find the right size for the bearing holders and inserts, and to find the right size of screw holes.
 
+<p float="left">
 <img height="170" src="images/organic base.png">
 <img height="170" src="images/organic potentiometer holder.png">
 <img height="170" src="images/organic servo holder.png">
@@ -57,6 +60,7 @@
 <img height="170" src="images/test bearing insert.png">
 <img height="170" src="images/test holes.png">
 <img height="170" src="images/test poles.png">
+</p>
 
 ---
 
@@ -105,12 +109,14 @@ And a guide to setup serial communication: https://www.youtube.com/watch?v=ElM9E
 
 **Accomplished:** modified the base, potentiometer holder, and servo holder to add extra space on the side of some of the bearing holders. Gave the stopping pins offset heights to offset the orientation of the servo arm allowing for more degrees of freedom without hitting each other. Also widened the servo arm to achieve this. The stopping pins end up bending under load, and the finger exoskeleton isn’t the right length. 
 
+<p float="left">
 <img height="170" src="images/base with offset pins and extra spacing.png">
 <img height="170" src="images/exoskeleton finger.png">
 <img height="170" src="images/potentiometer holder with extra spacing.png">
 <img height="170" src="images/servo arm with extra DOF.png">
 <img height="170" src="images/Servo bottom mount with finger exoskeleton attachment.png">
 <img height="170" src="images/servo holder with extra spacing.png">
+</p>
 
 ---
 
@@ -130,6 +136,7 @@ And a guide to setup serial communication: https://www.youtube.com/watch?v=ElM9E
 
 **Accomplished:** Printed several test pieces to find the right size for the removable potentiometer key and its hole. Made a less flimsy finger tip piece. Found the right length for each finger exoskeleton piece. Added a latching button mount to the potentiometer holder. Adjusted the offset heights of the stopping pin on the base and added a piece connecting the bearing and stopping to prevent the stopping pin from bending.
 
+<p float="left">
 <img height="170" src="images/adjusted base with offset pins.png">
 <img height="170" src="images/finger exoskeleton with adjusted length.png">
 <img height="170" src="images/Pot holder with button holder.png">
@@ -137,6 +144,7 @@ And a guide to setup serial communication: https://www.youtube.com/watch?v=ElM9E
 <img height="170" src="images/stronger finger tip.png">
 <img height="170" src="images/test pot key hole.png">
 <img height="170" src="images/test pot keys.png">
+</p>
 
 ---
 
@@ -146,8 +154,10 @@ And a guide to setup serial communication: https://www.youtube.com/watch?v=ElM9E
 
 **Accomplished:** I made a left and right hand finger model in blender and imported them into unreal engine. I was able to make the both meshes part of the same object by adding both of them to a blueprint class. They are able to rotate together and sense collisions on their corresponding side. Getting the meshes to rotate took longer than I expected because the angels became negative so I had to do some math on the angle before using it. I also got the serial data to control the rotation and added serial output notifying of collisions. Below is the finger mesh in unreal engine next to a box it collides with, there also an image of the blueprint for the finger blueprint class
 
+<p float="left">
 <img height="270" src="images/single finger.png">
 <img height="270" src="images/single finger blueprint.png">
+</p>
 
 ---
 
@@ -167,8 +177,10 @@ And a guide to setup serial communication: https://www.youtube.com/watch?v=ElM9E
 
 **Accomplished:** Adjusted some issues in the serial data parsing. Calibrated the firmware based on the physical glove, and calibrated the virtual simulation based on the firmware. Got the entire project to work together on the dev board. Had to angle the potentiometer to avoid an area of the potentiometer that wasn’t working. Below is the physical glove connected with the dev board which is connected to the computer, and an image of the angled potentiometer key.
 
+<p float="left">
 <img height="270" src="images/Glove.jpg">
 <img height="270" src="images/Servo Top Mount angled.png">
+</p>
 
 ---
 
