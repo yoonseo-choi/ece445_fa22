@@ -4,6 +4,7 @@
 
 **Accomplished:** Designed a base that stays in place on one’s hand with velcro straps. It also had bearing holders and stopping pins. I got a 3d model of the servo we’re using online. I made a model for our bearing and potentiometer based on dimensions I found where I ordered them. I made two pieces that go on the top and bottom of the servo and attach to bearings. I designed a piece with bearing holders that attaches to the base and holds the servo in place. I designed a piece that goes over the previous piece and holds the potentiometers. I made an extension to the servo arm that interacts with the stopping pin.
 
+<p float="left">
 <img height="170" src="images/Base.jpg">
 <img height="170" src="images/bearing.png">
 <img height="170" src="images/Potentiometer Holder.jpg">
@@ -13,6 +14,7 @@
 <img height="170" src="images/Servo Top Mount.jpg">
 <img height="170" src="images/servo.png">
 <img height="170" src="images/ServoMount Combined.jpg">
+</p>
 
 ---
 
