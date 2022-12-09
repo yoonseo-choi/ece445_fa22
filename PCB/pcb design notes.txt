@@ -1,0 +1,9 @@
+will use a via to connect all components need connection with
+usb-u (U1_pin4). we can use the back side of the board
+
+J15_tim2_ch2 needs to be connected to U1_pin55 through a via
+or just a longer route
+
+stm32 pin layout: (1~16), (17~32), (33~48), (49~64)
+	should we split J5, J6, and J7 into more headers?
+	this would clean up the pcb layout much better
