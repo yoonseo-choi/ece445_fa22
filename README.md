@@ -7,8 +7,7 @@
 
 **Lateral Movement Force-Feedback VR Gloves**
 
-We are aiming to create a low-cost and open source force-feedback VR glove that is able to accurately track and deliver not only front and back force feedback
-but also lateral feedback to the user wearing the glove.
+We have created a low-cost and open source force-feedback VR glove for lateral finger movement. It is able to acurate track and restrict the index, middle, ring, and pinky finger.
 
 <img src="Glove.jpg">
 <img src="Hand Virtual Simulation.png">
