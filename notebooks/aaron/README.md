@@ -10,7 +10,7 @@
 <img height="170" src="images/potentiometer.png">
 <img height="170" src="images/Servo Arm.jpg">
 <img height="170" src="images/Servo Holder.jpg">
-<img height="170" src="images/Servo Top mount.jpg">
+<img height="170" src="images/Servo Top Mount.jpg">
 <img height="170" src="images/servo.png">
 <img height="170" src="images/ServoMount Combined.jpg">
 
